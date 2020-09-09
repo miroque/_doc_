@@ -1,0 +1,25 @@
+= hello
+:author: Panov
+:toc: right
+:sectnums: true
+
+== goo
+
+include::two.adoc[]
+
+include::one.adoc[]
+
+
+
+== sample
+foo bar
+
+== bar with plantuml
+
+[plantuml]
+....
+@startuml
+a -->  b
+
+@enduml
+....
